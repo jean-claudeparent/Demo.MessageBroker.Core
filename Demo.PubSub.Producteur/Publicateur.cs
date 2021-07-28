@@ -8,7 +8,7 @@ namespace Demo.PubSub.Producteur
 {
     public class Publicateur
     {
-        private string _chaineConnexion = "";
+        private string _chaineConnexion = "erreur";
         private string _nomTopic = "topic1";
        
 

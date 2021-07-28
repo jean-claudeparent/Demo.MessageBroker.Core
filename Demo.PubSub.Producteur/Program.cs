@@ -7,9 +7,12 @@ namespace Demo.PubSub.Producteur
     {
         static void Main(string[] args)
         {
+            int i = 0;
 
-            while (true)
+
+            while (i < 10)
             {
+                i = i + 1;
 
                 Console.WriteLine("");
                 Console.WriteLine("");
@@ -18,15 +21,17 @@ namespace Demo.PubSub.Producteur
 
                 try
                 {
-                    var nombreMessages = int.Parse(Console.ReadLine());
+                    var nombreMessages = 3;
+                    ;
 
                     var tacheEnvoi = Publier(nombreMessages);
 
                     Task.WaitAny(tacheEnvoi);
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    Console.Write(ex.ToString ());
+                    Environment.Exit(99); 
                 }
 
 
