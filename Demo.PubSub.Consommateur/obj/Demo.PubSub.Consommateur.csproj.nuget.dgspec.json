@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ordi\\source\\repos\\Demo.Messagebroker.Core\\Demo.PubSub.Consommateur\\Demo.PubSub.Consommateur.csproj": {}
+    "/Volumes/MacHD/Utilisateurs/jc/Dropbox/Devmobile/Demo.MessageBroker.Core/Demo.PubSub.Consommateur/Demo.PubSub.Consommateur.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ordi\\source\\repos\\Demo.Messagebroker.Core\\Demo.PubSub.Consommateur\\Demo.PubSub.Consommateur.csproj": {
+    "/Volumes/MacHD/Utilisateurs/jc/Dropbox/Devmobile/Demo.MessageBroker.Core/Demo.PubSub.Consommateur/Demo.PubSub.Consommateur.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ordi\\source\\repos\\Demo.Messagebroker.Core\\Demo.PubSub.Consommateur\\Demo.PubSub.Consommateur.csproj",
+        "projectUniqueName": "/Volumes/MacHD/Utilisateurs/jc/Dropbox/Devmobile/Demo.MessageBroker.Core/Demo.PubSub.Consommateur/Demo.PubSub.Consommateur.csproj",
         "projectName": "Demo.PubSub.Consommateur",
-        "projectPath": "C:\\Users\\Ordi\\source\\repos\\Demo.Messagebroker.Core\\Demo.PubSub.Consommateur\\Demo.PubSub.Consommateur.csproj",
-        "packagesPath": "C:\\Users\\Ordi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ordi\\source\\repos\\Demo.Messagebroker.Core\\Demo.PubSub.Consommateur\\obj\\",
+        "projectPath": "/Volumes/MacHD/Utilisateurs/jc/Dropbox/Devmobile/Demo.MessageBroker.Core/Demo.PubSub.Consommateur/Demo.PubSub.Consommateur.csproj",
+        "packagesPath": "/Users/jc/.nuget/packages/",
+        "outputPath": "/Volumes/MacHD/Utilisateurs/jc/Dropbox/Devmobile/Demo.MessageBroker.Core/Demo.PubSub.Consommateur/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ordi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/jc/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }
