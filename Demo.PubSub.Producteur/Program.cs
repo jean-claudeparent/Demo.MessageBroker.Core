@@ -10,14 +10,11 @@ namespace Demo.PubSub.Producteur
             int i = 0;
 
 
-            while (i < 10)
+            while (i < 1)
             {
                 i = i + 1;
 
-                Console.WriteLine("");
-                Console.WriteLine("");
-                Console.WriteLine("");
-                Console.WriteLine("Combien de messages voulez vous envoyer ? ");
+                
 
                 try
                 {
