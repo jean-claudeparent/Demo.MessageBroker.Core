@@ -1,4 +1,4 @@
-﻿using Azure.Messaging.ServiceBus;
+using Azure.Messaging.ServiceBus;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,7 +8,7 @@ namespace Demo.PubSub.Consommateur
 {
     public class Souscripteur
     {
-        private string _chaineConnexion = "";
+        private string _chaineConnexion = @"Endpoint=sb://rqbus1.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=YyZItf3LrFuhpvuiYb0b5R9d6xzNY4++znQvw2fIDDk=";
         private string _nomTopic = "topic1";
         private string _nomSouscription = "subscription2";
 

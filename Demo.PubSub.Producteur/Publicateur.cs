@@ -8,7 +8,7 @@ namespace Demo.PubSub.Producteur
 {
     public class Publicateur
     {
-        private string _chaineConnexion  = ""; 
+        private string _chaineConnexion  = @"Endpoint=sb://rqbus1.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=YyZItf3LrFuhpvuiYb0b5R9d6xzNY4++znQvw2fIDDk=";
         private string _nomTopic = "topic1";
        
 
