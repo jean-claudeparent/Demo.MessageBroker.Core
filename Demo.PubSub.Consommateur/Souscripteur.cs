@@ -40,7 +40,7 @@ namespace Demo.PubSub.Consommateur
 
         public async Task ArreterReceptionMessages()
         {
-            Console.ReadKey();
+           // Console.ReadKey();
             Console.WriteLine("\nArrêt du souscripteur...");
             await processor.StopProcessingAsync();
             Console.WriteLine("Le souscripteur a arreté de recevoir les messages");
