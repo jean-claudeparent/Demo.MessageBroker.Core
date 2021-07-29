@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0AIawd/PAPQM1Mju7SGaREAYPmmLrxsgLFvvJ/cIJZ+aAV774t/w573P8zpi5TPYyiFWlZBjpSEoleH1iM/DPw==",
+  "dgSpecHash": "RhlWQkAy7KGdaqb0v+V6908sgj0vzt5ubtDVIwhmadOixM9dmMXoH/L06cRP7EiWAj/l1h/0w/cq+83semp1WA==",
   "success": true,
   "projectFilePath": "/Volumes/MacHD/Utilisateurs/jc/Dropbox/Devmobile/Demo.MessageBroker.Core/Demo.PubSub.Consommateur/Demo.PubSub.Consommateur.csproj",
   "expectedPackageFiles": [
