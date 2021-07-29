@@ -1,4 +1,4 @@
-﻿using Azure.Messaging.ServiceBus;
+using Azure.Messaging.ServiceBus;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,7 +8,7 @@ namespace Demo.PubSub.Producteur
 {
     public class Publicateur
     {
-        private string _chaineConnexion = "erreur";
+        private string _chaineConnexion  = ""; 
         private string _nomTopic = "topic1";
        
 

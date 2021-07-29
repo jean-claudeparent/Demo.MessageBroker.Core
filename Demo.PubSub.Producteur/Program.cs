@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
+using System.Threading;
+
+
 
 namespace Demo.PubSub.Producteur
 {
@@ -24,6 +27,7 @@ namespace Demo.PubSub.Producteur
                     var tacheEnvoi = Publier(nombreMessages);
 
                     Task.WaitAny(tacheEnvoi);
+                    Thread.Sleep (10000);
                 }
                 catch (Exception ex)
                 {
